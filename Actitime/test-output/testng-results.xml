@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="0" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[open Browser]]>
+    </line>
+    <line>
+      <![CDATA[open Browser]]>
+    </line>
+    <line>
+      <![CDATA[logIn]]>
+    </line>
+    <line>
+      <![CDATA[test passed]]>
+    </line>
+    <line>
+      <![CDATA[logIn]]>
+    </line>
+    <line>
+      <![CDATA[test passed]]>
+    </line>
+    <line>
+      <![CDATA[open Browser]]>
+    </line>
+    <line>
+      <![CDATA[logIn]]>
+    </line>
+    <line>
+      <![CDATA[test passed]]>
+    </line>
+    <line>
+      <![CDATA[test skipped]]>
+    </line>
+    <line>
+      <![CDATA[logOut]]>
+    </line>
+    <line>
+      <![CDATA[logOut]]>
+    </line>
+    <line>
+      <![CDATA[logIn]]>
+    </line>
+    <line>
+      <![CDATA[test passed]]>
+    </line>
+    <line>
+      <![CDATA[logIn]]>
+    </line>
+    <line>
+      <![CDATA[test passed]]>
+    </line>
+    <line>
+      <![CDATA[logOut]]>
+    </line>
+    <line>
+      <![CDATA[logOut]]>
+    </line>
+    <line>
+      <![CDATA[closeBrowser]]>
+    </line>
+    <line>
+      <![CDATA[closeBrowser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-10-09T12:49:03 IST" name="Suite" finished-at="2023-10-09T12:49:40 IST" duration-ms="37091">
+    <groups>
+    </groups>
+    <test started-at="2023-10-09T12:49:03 IST" name="Test2" finished-at="2023-10-09T12:49:24 IST" duration-ms="21143">
+      <class name="com.actitime.testscript.CustomerModule">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.actitime.testscript.CustomerModule@5884a914]" started-at="2023-10-09T12:49:03 IST" name="openBrowser" finished-at="2023-10-09T12:49:19 IST" duration-ms="16488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[open Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="logIn()[pri:0, instance:com.actitime.testscript.CustomerModule@5884a914]" started-at="2023-10-09T12:49:19 IST" name="logIn" finished-at="2023-10-09T12:49:19 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logIn]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="createCustomer()[pri:0, instance:com.actitime.testscript.CustomerModule@5884a914]" started-at="2023-10-09T12:49:19 IST" name="createCustomer" finished-at="2023-10-09T12:49:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.actitime.testscript.CustomerModule@5884a914]" started-at="2023-10-09T12:49:19 IST" name="logOut" finished-at="2023-10-09T12:49:24 IST" duration-ms="4209" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <a id="logoutLink" class="logout" href="/logout.do"> is not clickable at point (1479,17) because another element <div id="preInsertedTransformedMoireId" class="transformedMoireClass"> obscures it
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7cb4dedd-0836-4826-9e4d-689c74e24a0e, clickElement {id=f272fb48-1121-44e0-8f27-b757216d7783}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:debuggerAddress: 127.0.0.1:29547, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15988, moz:profile: C:\Users\Kishor\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29547/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (7cb4dedd-0836-4826-9e4d-689c74e24a0e)] -> id: logoutLink]
+Session ID: 7cb4dedd-0836-4826-9e4d-689c74e24a0e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a id="logoutLink" class="logout" href="/logout.do"> is not clickable at point (1479,17) because another element <div id="preInsertedTransformedMoireId" class="transformedMoireClass"> obscures it
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7cb4dedd-0836-4826-9e4d-689c74e24a0e, clickElement {id=f272fb48-1121-44e0-8f27-b757216d7783}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:debuggerAddress: 127.0.0.1:29547, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15988, moz:profile: C:\Users\Kishor\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29547/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (7cb4dedd-0836-4826-9e4d-689c74e24a0e)] -> id: logoutLink]
+Session ID: 7cb4dedd-0836-4826-9e4d-689c74e24a0e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+at com.actitime.pom.HomePage.logout(HomePage.java:24)
+at com.actitime.generic.BaseClass.logOut(BaseClass.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="logIn()[pri:0, instance:com.actitime.testscript.CustomerModule@5884a914]" started-at="2023-10-09T12:49:24 IST" name="logIn" finished-at="2023-10-09T12:49:24 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="deleteCustomer()[pri:0, instance:com.actitime.testscript.CustomerModule@5884a914]" started-at="2023-10-09T12:49:24 IST" name="deleteCustomer" finished-at="2023-10-09T12:49:24 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <a id="logoutLink" class="logout" href="/logout.do"> is not clickable at point (1479,17) because another element <div id="preInsertedTransformedMoireId" class="transformedMoireClass"> obscures it
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7cb4dedd-0836-4826-9e4d-689c74e24a0e, clickElement {id=f272fb48-1121-44e0-8f27-b757216d7783}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:debuggerAddress: 127.0.0.1:29547, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15988, moz:profile: C:\Users\Kishor\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29547/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (7cb4dedd-0836-4826-9e4d-689c74e24a0e)] -> id: logoutLink]
+Session ID: 7cb4dedd-0836-4826-9e4d-689c74e24a0e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a id="logoutLink" class="logout" href="/logout.do"> is not clickable at point (1479,17) because another element <div id="preInsertedTransformedMoireId" class="transformedMoireClass"> obscures it
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7cb4dedd-0836-4826-9e4d-689c74e24a0e, clickElement {id=f272fb48-1121-44e0-8f27-b757216d7783}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:debuggerAddress: 127.0.0.1:29547, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15988, moz:profile: C:\Users\Kishor\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29547/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (7cb4dedd-0836-4826-9e4d-689c74e24a0e)] -> id: logoutLink]
+Session ID: 7cb4dedd-0836-4826-9e4d-689c74e24a0e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+at com.actitime.pom.HomePage.logout(HomePage.java:24)
+at com.actitime.generic.BaseClass.logOut(BaseClass.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[test skipped]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.actitime.testscript.CustomerModule@5884a914]" started-at="2023-10-09T12:49:24 IST" name="logOut" finished-at="2023-10-09T12:49:24 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.actitime.testscript.CustomerModule@5884a914]" started-at="2023-10-09T12:49:24 IST" name="closeBrowser" finished-at="2023-10-09T12:49:24 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.testscript.CustomerModule -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-10-09T12:49:03 IST" name="Test1" finished-at="2023-10-09T12:49:40 IST" duration-ms="36999">
+      <class name="com.actitime.testscript.CustomerModule">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.actitime.testscript.CustomerModule@4d15107f]" started-at="2023-10-09T12:49:03 IST" name="openBrowser" finished-at="2023-10-09T12:49:16 IST" duration-ms="13604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[open Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="logIn()[pri:0, instance:com.actitime.testscript.CustomerModule@4d15107f]" started-at="2023-10-09T12:49:16 IST" name="logIn" finished-at="2023-10-09T12:49:17 IST" duration-ms="485" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logIn]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="createCustomer()[pri:0, instance:com.actitime.testscript.CustomerModule@4d15107f]" started-at="2023-10-09T12:49:17 IST" name="createCustomer" finished-at="2023-10-09T12:49:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.actitime.testscript.CustomerModule@4d15107f]" started-at="2023-10-09T12:49:17 IST" name="logOut" finished-at="2023-10-09T12:49:25 IST" duration-ms="8281" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="logIn()[pri:0, instance:com.actitime.testscript.CustomerModule@4d15107f]" started-at="2023-10-09T12:49:25 IST" name="logIn" finished-at="2023-10-09T12:49:25 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logIn]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="deleteCustomer()[pri:0, instance:com.actitime.testscript.CustomerModule@4d15107f]" started-at="2023-10-09T12:49:25 IST" name="deleteCustomer" finished-at="2023-10-09T12:49:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.actitime.testscript.CustomerModule@4d15107f]" started-at="2023-10-09T12:49:25 IST" name="logOut" finished-at="2023-10-09T12:49:39 IST" duration-ms="13688" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.actitime.testscript.CustomerModule@4d15107f]" started-at="2023-10-09T12:49:39 IST" name="closeBrowser" finished-at="2023-10-09T12:49:40 IST" duration-ms="601" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.testscript.CustomerModule -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-10-09T12:49:03 IST" name="Test" finished-at="2023-10-09T12:49:40 IST" duration-ms="37091">
+      <class name="com.actitime.testscript.CustomerModule">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.actitime.testscript.CustomerModule@4d0d9fe7]" started-at="2023-10-09T12:49:03 IST" name="openBrowser" finished-at="2023-10-09T12:49:16 IST" duration-ms="13605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[open Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="logIn()[pri:0, instance:com.actitime.testscript.CustomerModule@4d0d9fe7]" started-at="2023-10-09T12:49:16 IST" name="logIn" finished-at="2023-10-09T12:49:17 IST" duration-ms="447" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logIn]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="createCustomer()[pri:0, instance:com.actitime.testscript.CustomerModule@4d0d9fe7]" started-at="2023-10-09T12:49:17 IST" name="createCustomer" finished-at="2023-10-09T12:49:17 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.actitime.testscript.CustomerModule@4d0d9fe7]" started-at="2023-10-09T12:49:17 IST" name="logOut" finished-at="2023-10-09T12:49:25 IST" duration-ms="8230" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="logIn()[pri:0, instance:com.actitime.testscript.CustomerModule@4d0d9fe7]" started-at="2023-10-09T12:49:25 IST" name="logIn" finished-at="2023-10-09T12:49:25 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logIn]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="deleteCustomer()[pri:0, instance:com.actitime.testscript.CustomerModule@4d0d9fe7]" started-at="2023-10-09T12:49:25 IST" name="deleteCustomer" finished-at="2023-10-09T12:49:25 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.actitime.testscript.CustomerModule@4d0d9fe7]" started-at="2023-10-09T12:49:25 IST" name="logOut" finished-at="2023-10-09T12:49:39 IST" duration-ms="14093" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.actitime.testscript.CustomerModule@4d0d9fe7]" started-at="2023-10-09T12:49:39 IST" name="closeBrowser" finished-at="2023-10-09T12:49:40 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.testscript.CustomerModule -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
